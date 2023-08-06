@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    h1,p,span,a,button {
+        font-family: 'Poppins', sans-serif;
+    }
+}
