@@ -31,7 +31,7 @@ const Nav = () => {
     <OutsideClickHandler onOutsideClick={handleOutsideNav}>
         <nav className={`
         ${isDarkMode?'bg-black border-white':'bg-white border-slate-500'}
-        fixed bottom-0 z-10 w-full flex flex-col py-2 px-5 border-t `}>
+        fixed bottom-0 z-10 w-full flex flex-col py-2 px-10 border-t `}>
         <div className={`
         ${isOpen? 'transform translate-y-0 h-full' : 'transform translate-y-96 h-0'}
         ${isDarkMode? 'text-white':'text-black'}

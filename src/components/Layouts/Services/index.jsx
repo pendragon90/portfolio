@@ -11,15 +11,15 @@ const Services = () => {
          ${isDarkMode?'bg-slate-800':'text-black'}
         bg-slate-200 p-3 rounded-lg mt-5 flex flex-col gap-y-3`}>
             <div className="flex gap-3 items-center">
-                <TiTick className='text-xl'/>
+                <TiTick className='text-4xl'/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, perspiciatis.</p>
             </div>
             <div className="flex gap-3 items-center">
-                <TiTick className='text-xl'/>
+                <TiTick className='text-4xl'/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, perspiciatis.</p>
             </div>
             <div className="flex gap-3 items-center">
-                <TiTick className='text-xl'/>
+                <TiTick className='text-4xl'/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, perspiciatis.</p>
             </div>
         </div>

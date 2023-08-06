@@ -3,9 +3,9 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram } from "react-icons/ai
 const Footer = () => {
   return (
     <div id='about' className=' pb-16 border-t border-slate-500'>
-      <div className="mx-10">
+      <div className="px-10">
         <h1 className='text-center text-2xl font-bold mt-3'>Daffa Fahrizal</h1>
-        <div className="flex p-3 gap-x-3 justify-center">
+        <div className="flex p-3 gap-x-3 justify-center flex-wrap">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>

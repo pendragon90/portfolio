@@ -14,7 +14,7 @@ const Skills = () => {
      ${isDarkMode?'bg-slate-800':'bg-slate-100'}
     col-span-4 mt-5 rounded-lg p-3`}>
         <h1 className='text-center mb-3 text-lg font-bold'>Frontend</h1>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 gap-2 p-3 ">
             <div className="flex items-center gap-2">
               <TiTick />
               <p>HTML</p>
@@ -50,7 +50,7 @@ const Skills = () => {
      ${isDarkMode?'bg-slate-800':'text-black'}
     col-span-4 mt-5 bg-slate-100 rounded-lg p-3`}>
         <h1 className='text-center mb-3 text-lg font-bold'>Backend</h1>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 gap-4">
             <div className="flex items-center gap-2">
               <TiTick />
              <p>PHP</p>
