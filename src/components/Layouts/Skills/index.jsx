@@ -33,11 +33,15 @@ const Skills = () => {
             </div>
             <div className="flex items-center gap-2">
               <TiTick />
-              <p>Tailwind css</p>
+              <p>Tailwind</p>
             </div>
             <div className="flex items-center gap-2">
               <TiTick />
               <p>React Js</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <TiTick />
+              <p>Redux</p>
             </div>
         </div>
       </div>

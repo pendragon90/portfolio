@@ -68,7 +68,14 @@ function Projects() {
                 </div>
             </div>
 
+            <div className="flex gap-3">
+              <a href="https://netflix-app-two-tan.vercel.app" target='_blank'>
             <Button>Live Demo</Button>
+              </a>
+              <a href="https://github.com/pendragon90/netflix" target='_blank'>
+            <Button>Github</Button>
+              </a>
+            </div>
 
             </div>
         </div>
